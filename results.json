@@ -1,0 +1,1502 @@
+[
+ {
+  "domain": "airline",
+  "baseline": "claude-3-7-sonnet-20250219",
+  "candidate": "gpt-4.1-2025-04-14",
+  "tasks": 50,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.5,
+   "candidate": 0.56,
+   "diff": 0.06,
+   "lo": -0.035,
+   "hi": 0.155
+  },
+  "use_cases": [
+   {
+    "use_case": "no_write",
+    "tasks": 20,
+    "baseline": 0.55,
+    "candidate": 0.75,
+    "diff": 0.2,
+    "lo": 0.0625,
+    "hi": 0.35,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "update_reservation_flights",
+    "tasks": 12,
+    "baseline": 0.4375,
+    "candidate": 0.5208333333333334,
+    "diff": 0.08333333333333333,
+    "lo": -0.125,
+    "hi": 0.2916666666666667,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "cancel_reservation",
+    "tasks": 8,
+    "baseline": 0.375,
+    "candidate": 0.28125,
+    "diff": -0.09375,
+    "lo": -0.3125,
+    "hi": 0.125,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "book_reservation",
+    "tasks": 5,
+    "baseline": 0.6,
+    "candidate": 0.45,
+    "diff": -0.15,
+    "lo": -0.3,
+    "hi": 0.0,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "send_certificate",
+    "tasks": 3,
+    "baseline": 0.5833333333333334,
+    "candidate": 0.25,
+    "diff": -0.3333333333333333,
+    "lo": -0.5833333333333334,
+    "hi": -0.08333333333333333,
+    "regression": true,
+    "clears": false
+   },
+   {
+    "use_case": "other",
+    "tasks": 2,
+    "baseline": 0.5,
+    "candidate": 0.75,
+    "diff": 0.25,
+    "lo": 0.0,
+    "hi": 0.5,
+    "regression": false,
+    "clears": true
+   }
+  ],
+  "flips": {
+   "broke": 0,
+   "fixed": 3
+  },
+  "gate_passed": false
+ },
+ {
+  "domain": "airline",
+  "baseline": "claude-3-7-sonnet-20250219",
+  "candidate": "gpt-4.1-mini-2025-04-14",
+  "tasks": 50,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.5,
+   "candidate": 0.505,
+   "diff": 0.005,
+   "lo": -0.09,
+   "hi": 0.1
+  },
+  "use_cases": [
+   {
+    "use_case": "no_write",
+    "tasks": 20,
+    "baseline": 0.55,
+    "candidate": 0.625,
+    "diff": 0.075,
+    "lo": -0.05,
+    "hi": 0.2125,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "update_reservation_flights",
+    "tasks": 12,
+    "baseline": 0.4375,
+    "candidate": 0.3333333333333333,
+    "diff": -0.10416666666666667,
+    "lo": -0.3541666666666667,
+    "hi": 0.16666666666666666,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "cancel_reservation",
+    "tasks": 8,
+    "baseline": 0.375,
+    "candidate": 0.28125,
+    "diff": -0.09375,
+    "lo": -0.28125,
+    "hi": 0.09375,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "book_reservation",
+    "tasks": 5,
+    "baseline": 0.6,
+    "candidate": 0.45,
+    "diff": -0.15,
+    "lo": -0.25,
+    "hi": -0.05,
+    "regression": true,
+    "clears": false
+   },
+   {
+    "use_case": "send_certificate",
+    "tasks": 3,
+    "baseline": 0.5833333333333334,
+    "candidate": 0.8333333333333334,
+    "diff": 0.25,
+    "lo": 0.08333333333333333,
+    "hi": 0.4166666666666667,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "other",
+    "tasks": 2,
+    "baseline": 0.5,
+    "candidate": 0.875,
+    "diff": 0.375,
+    "lo": 0.0,
+    "hi": 0.75,
+    "regression": false,
+    "clears": true
+   }
+  ],
+  "flips": {
+   "broke": 1,
+   "fixed": 1
+  },
+  "gate_passed": false
+ },
+ {
+  "domain": "airline",
+  "baseline": "claude-3-7-sonnet-20250219",
+  "candidate": "o4-mini-2025-04-16",
+  "tasks": 50,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.5,
+   "candidate": 0.59,
+   "diff": 0.09,
+   "lo": -0.01,
+   "hi": 0.195
+  },
+  "use_cases": [
+   {
+    "use_case": "no_write",
+    "tasks": 20,
+    "baseline": 0.55,
+    "candidate": 0.875,
+    "diff": 0.325,
+    "lo": 0.1875,
+    "hi": 0.475,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "update_reservation_flights",
+    "tasks": 12,
+    "baseline": 0.4375,
+    "candidate": 0.4583333333333333,
+    "diff": 0.020833333333333332,
+    "lo": -0.1875,
+    "hi": 0.25,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "cancel_reservation",
+    "tasks": 8,
+    "baseline": 0.375,
+    "candidate": 0.21875,
+    "diff": -0.15625,
+    "lo": -0.375,
+    "hi": 0.03125,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "book_reservation",
+    "tasks": 5,
+    "baseline": 0.6,
+    "candidate": 0.45,
+    "diff": -0.15,
+    "lo": -0.3,
+    "hi": 0.0,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "send_certificate",
+    "tasks": 3,
+    "baseline": 0.5833333333333334,
+    "candidate": 0.3333333333333333,
+    "diff": -0.25,
+    "lo": -0.4166666666666667,
+    "hi": -0.08333333333333333,
+    "regression": true,
+    "clears": false
+   },
+   {
+    "use_case": "other",
+    "tasks": 2,
+    "baseline": 0.5,
+    "candidate": 0.75,
+    "diff": 0.25,
+    "lo": 0.0,
+    "hi": 0.5,
+    "regression": false,
+    "clears": true
+   }
+  ],
+  "flips": {
+   "broke": 1,
+   "fixed": 4
+  },
+  "gate_passed": false
+ },
+ {
+  "domain": "airline",
+  "baseline": "gpt-4.1-2025-04-14",
+  "candidate": "o4-mini-2025-04-16",
+  "tasks": 50,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.56,
+   "candidate": 0.59,
+   "diff": 0.03,
+   "lo": -0.055,
+   "hi": 0.115
+  },
+  "use_cases": [
+   {
+    "use_case": "no_write",
+    "tasks": 20,
+    "baseline": 0.75,
+    "candidate": 0.875,
+    "diff": 0.125,
+    "lo": 0.0,
+    "hi": 0.25,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "update_reservation_flights",
+    "tasks": 12,
+    "baseline": 0.5208333333333334,
+    "candidate": 0.4583333333333333,
+    "diff": -0.0625,
+    "lo": -0.25,
+    "hi": 0.14583333333333334,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "cancel_reservation",
+    "tasks": 8,
+    "baseline": 0.28125,
+    "candidate": 0.21875,
+    "diff": -0.0625,
+    "lo": -0.21875,
+    "hi": 0.09375,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "book_reservation",
+    "tasks": 5,
+    "baseline": 0.45,
+    "candidate": 0.45,
+    "diff": 0.0,
+    "lo": -0.25,
+    "hi": 0.25,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "send_certificate",
+    "tasks": 3,
+    "baseline": 0.25,
+    "candidate": 0.3333333333333333,
+    "diff": 0.08333333333333333,
+    "lo": -0.25,
+    "hi": 0.4166666666666667,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "other",
+    "tasks": 2,
+    "baseline": 0.75,
+    "candidate": 0.75,
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "regression": false,
+    "clears": true
+   }
+  ],
+  "flips": {
+   "broke": 0,
+   "fixed": 0
+  },
+  "gate_passed": false
+ },
+ {
+  "domain": "airline",
+  "baseline": "gpt-4.1-mini-2025-04-14",
+  "candidate": "gpt-4.1-2025-04-14",
+  "tasks": 50,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.505,
+   "candidate": 0.56,
+   "diff": 0.055,
+   "lo": -0.035,
+   "hi": 0.15
+  },
+  "use_cases": [
+   {
+    "use_case": "no_write",
+    "tasks": 20,
+    "baseline": 0.625,
+    "candidate": 0.75,
+    "diff": 0.125,
+    "lo": -0.0375,
+    "hi": 0.275,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "update_reservation_flights",
+    "tasks": 12,
+    "baseline": 0.3333333333333333,
+    "candidate": 0.5208333333333334,
+    "diff": 0.1875,
+    "lo": 0.041666666666666664,
+    "hi": 0.3541666666666667,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "cancel_reservation",
+    "tasks": 8,
+    "baseline": 0.28125,
+    "candidate": 0.28125,
+    "diff": 0.0,
+    "lo": -0.1875,
+    "hi": 0.1875,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "book_reservation",
+    "tasks": 5,
+    "baseline": 0.45,
+    "candidate": 0.45,
+    "diff": 0.0,
+    "lo": -0.15,
+    "hi": 0.15,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "send_certificate",
+    "tasks": 3,
+    "baseline": 0.8333333333333334,
+    "candidate": 0.25,
+    "diff": -0.5833333333333334,
+    "lo": -0.6666666666666666,
+    "hi": -0.5,
+    "regression": true,
+    "clears": false
+   },
+   {
+    "use_case": "other",
+    "tasks": 2,
+    "baseline": 0.875,
+    "candidate": 0.75,
+    "diff": -0.125,
+    "lo": -0.25,
+    "hi": 0.0,
+    "regression": false,
+    "clears": false
+   }
+  ],
+  "flips": {
+   "broke": 1,
+   "fixed": 1
+  },
+  "gate_passed": false
+ },
+ {
+  "domain": "airline",
+  "baseline": "gpt-4.1-mini-2025-04-14",
+  "candidate": "o4-mini-2025-04-16",
+  "tasks": 50,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.505,
+   "candidate": 0.59,
+   "diff": 0.085,
+   "lo": -0.01,
+   "hi": 0.185
+  },
+  "use_cases": [
+   {
+    "use_case": "no_write",
+    "tasks": 20,
+    "baseline": 0.625,
+    "candidate": 0.875,
+    "diff": 0.25,
+    "lo": 0.075,
+    "hi": 0.425,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "update_reservation_flights",
+    "tasks": 12,
+    "baseline": 0.3333333333333333,
+    "candidate": 0.4583333333333333,
+    "diff": 0.125,
+    "lo": -0.041666666666666664,
+    "hi": 0.2916666666666667,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "cancel_reservation",
+    "tasks": 8,
+    "baseline": 0.28125,
+    "candidate": 0.21875,
+    "diff": -0.0625,
+    "lo": -0.15625,
+    "hi": 0.03125,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "book_reservation",
+    "tasks": 5,
+    "baseline": 0.45,
+    "candidate": 0.45,
+    "diff": 0.0,
+    "lo": -0.1,
+    "hi": 0.1,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "send_certificate",
+    "tasks": 3,
+    "baseline": 0.8333333333333334,
+    "candidate": 0.3333333333333333,
+    "diff": -0.5,
+    "lo": -0.75,
+    "hi": -0.25,
+    "regression": true,
+    "clears": false
+   },
+   {
+    "use_case": "other",
+    "tasks": 2,
+    "baseline": 0.875,
+    "candidate": 0.75,
+    "diff": -0.125,
+    "lo": -0.25,
+    "hi": 0.0,
+    "regression": false,
+    "clears": false
+   }
+  ],
+  "flips": {
+   "broke": 0,
+   "fixed": 3
+  },
+  "gate_passed": false
+ },
+ {
+  "domain": "retail",
+  "baseline": "gpt-4.1-2025-04-14",
+  "candidate": "claude-3-7-sonnet-20250219",
+  "tasks": 114,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.7412280701754386,
+   "candidate": 0.7872807017543859,
+   "diff": 0.046052631578947366,
+   "lo": -0.006578947368421052,
+   "hi": 0.09868421052631579
+  },
+  "use_cases": [
+   {
+    "use_case": "exchange_delivered_order_items",
+    "tasks": 27,
+    "baseline": 0.7314814814814815,
+    "candidate": 0.8055555555555556,
+    "diff": 0.07407407407407407,
+    "lo": -0.05555555555555555,
+    "hi": 0.19444444444444445,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "return_delivered_order_items",
+    "tasks": 26,
+    "baseline": 0.7788461538461539,
+    "candidate": 0.8269230769230769,
+    "diff": 0.04807692307692308,
+    "lo": -0.04807692307692308,
+    "hi": 0.15384615384615385,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "modify_pending_order_items",
+    "tasks": 18,
+    "baseline": 0.5694444444444444,
+    "candidate": 0.7361111111111112,
+    "diff": 0.16666666666666666,
+    "lo": 0.027777777777777776,
+    "hi": 0.3055555555555556,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "cancel_pending_order",
+    "tasks": 15,
+    "baseline": 0.85,
+    "candidate": 0.7833333333333333,
+    "diff": -0.06666666666666667,
+    "lo": -0.16666666666666666,
+    "hi": 0.03333333333333333,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "modify_pending_order_address",
+    "tasks": 14,
+    "baseline": 0.6428571428571429,
+    "candidate": 0.7321428571428571,
+    "diff": 0.08928571428571429,
+    "lo": -0.07142857142857142,
+    "hi": 0.25,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "no_write",
+    "tasks": 9,
+    "baseline": 0.9166666666666666,
+    "candidate": 0.8333333333333334,
+    "diff": -0.08333333333333333,
+    "lo": -0.19444444444444445,
+    "hi": 0.0,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "modify_user_address",
+    "tasks": 4,
+    "baseline": 0.8125,
+    "candidate": 0.6875,
+    "diff": -0.125,
+    "lo": -0.625,
+    "hi": 0.3125,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "other",
+    "tasks": 1,
+    "baseline": 1.0,
+    "candidate": 1.0,
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "regression": false,
+    "clears": true
+   }
+  ],
+  "flips": {
+   "broke": 2,
+   "fixed": 1
+  },
+  "gate_passed": false
+ },
+ {
+  "domain": "retail",
+  "baseline": "gpt-4.1-mini-2025-04-14",
+  "candidate": "claude-3-7-sonnet-20250219",
+  "tasks": 114,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.6600877192982456,
+   "candidate": 0.7872807017543859,
+   "diff": 0.12719298245614036,
+   "lo": 0.07236842105263158,
+   "hi": 0.18201754385964913
+  },
+  "use_cases": [
+   {
+    "use_case": "exchange_delivered_order_items",
+    "tasks": 27,
+    "baseline": 0.6851851851851852,
+    "candidate": 0.8055555555555556,
+    "diff": 0.12037037037037036,
+    "lo": 0.0,
+    "hi": 0.23148148148148148,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "return_delivered_order_items",
+    "tasks": 26,
+    "baseline": 0.6923076923076923,
+    "candidate": 0.8269230769230769,
+    "diff": 0.1346153846153846,
+    "lo": 0.019230769230769232,
+    "hi": 0.25961538461538464,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "modify_pending_order_items",
+    "tasks": 18,
+    "baseline": 0.4305555555555556,
+    "candidate": 0.7361111111111112,
+    "diff": 0.3055555555555556,
+    "lo": 0.16666666666666666,
+    "hi": 0.4444444444444444,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "cancel_pending_order",
+    "tasks": 15,
+    "baseline": 0.7666666666666667,
+    "candidate": 0.7833333333333333,
+    "diff": 0.016666666666666666,
+    "lo": -0.13333333333333333,
+    "hi": 0.16666666666666666,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "modify_pending_order_address",
+    "tasks": 14,
+    "baseline": 0.5178571428571429,
+    "candidate": 0.7321428571428571,
+    "diff": 0.21428571428571427,
+    "lo": 0.10714285714285714,
+    "hi": 0.32142857142857145,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "no_write",
+    "tasks": 9,
+    "baseline": 0.9444444444444444,
+    "candidate": 0.8333333333333334,
+    "diff": -0.1111111111111111,
+    "lo": -0.2222222222222222,
+    "hi": -0.027777777777777776,
+    "regression": true,
+    "clears": false
+   },
+   {
+    "use_case": "modify_user_address",
+    "tasks": 4,
+    "baseline": 0.6875,
+    "candidate": 0.6875,
+    "diff": 0.0,
+    "lo": -0.375,
+    "hi": 0.375,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "other",
+    "tasks": 1,
+    "baseline": 1.0,
+    "candidate": 1.0,
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "regression": false,
+    "clears": true
+   }
+  ],
+  "flips": {
+   "broke": 1,
+   "fixed": 3
+  },
+  "gate_passed": false
+ },
+ {
+  "domain": "retail",
+  "baseline": "gpt-4.1-mini-2025-04-14",
+  "candidate": "gpt-4.1-2025-04-14",
+  "tasks": 114,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.6600877192982456,
+   "candidate": 0.7412280701754386,
+   "diff": 0.08114035087719298,
+   "lo": 0.039473684210526314,
+   "hi": 0.125
+  },
+  "use_cases": [
+   {
+    "use_case": "exchange_delivered_order_items",
+    "tasks": 27,
+    "baseline": 0.6851851851851852,
+    "candidate": 0.7314814814814815,
+    "diff": 0.046296296296296294,
+    "lo": -0.037037037037037035,
+    "hi": 0.12037037037037036,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "return_delivered_order_items",
+    "tasks": 26,
+    "baseline": 0.6923076923076923,
+    "candidate": 0.7788461538461539,
+    "diff": 0.08653846153846154,
+    "lo": -0.009615384615384616,
+    "hi": 0.18269230769230768,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "modify_pending_order_items",
+    "tasks": 18,
+    "baseline": 0.4305555555555556,
+    "candidate": 0.5694444444444444,
+    "diff": 0.1388888888888889,
+    "lo": 0.041666666666666664,
+    "hi": 0.2361111111111111,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "cancel_pending_order",
+    "tasks": 15,
+    "baseline": 0.7666666666666667,
+    "candidate": 0.85,
+    "diff": 0.08333333333333333,
+    "lo": -0.05,
+    "hi": 0.21666666666666667,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "modify_pending_order_address",
+    "tasks": 14,
+    "baseline": 0.5178571428571429,
+    "candidate": 0.6428571428571429,
+    "diff": 0.125,
+    "lo": -0.017857142857142856,
+    "hi": 0.26785714285714285,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "no_write",
+    "tasks": 9,
+    "baseline": 0.9444444444444444,
+    "candidate": 0.9166666666666666,
+    "diff": -0.027777777777777776,
+    "lo": -0.1111111111111111,
+    "hi": 0.05555555555555555,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "modify_user_address",
+    "tasks": 4,
+    "baseline": 0.6875,
+    "candidate": 0.8125,
+    "diff": 0.125,
+    "lo": -0.125,
+    "hi": 0.375,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "other",
+    "tasks": 1,
+    "baseline": 1.0,
+    "candidate": 1.0,
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "regression": false,
+    "clears": true
+   }
+  ],
+  "flips": {
+   "broke": 0,
+   "fixed": 0
+  },
+  "gate_passed": false
+ },
+ {
+  "domain": "retail",
+  "baseline": "gpt-4.1-mini-2025-04-14",
+  "candidate": "o4-mini-2025-04-16",
+  "tasks": 114,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.6600877192982456,
+   "candidate": 0.7149122807017544,
+   "diff": 0.05482456140350877,
+   "lo": 0.0,
+   "hi": 0.1118421052631579
+  },
+  "use_cases": [
+   {
+    "use_case": "exchange_delivered_order_items",
+    "tasks": 27,
+    "baseline": 0.6851851851851852,
+    "candidate": 0.7037037037037037,
+    "diff": 0.018518518518518517,
+    "lo": -0.08333333333333333,
+    "hi": 0.12962962962962962,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "return_delivered_order_items",
+    "tasks": 26,
+    "baseline": 0.6923076923076923,
+    "candidate": 0.8365384615384616,
+    "diff": 0.14423076923076922,
+    "lo": 0.04807692307692308,
+    "hi": 0.2403846153846154,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "modify_pending_order_items",
+    "tasks": 18,
+    "baseline": 0.4305555555555556,
+    "candidate": 0.6805555555555556,
+    "diff": 0.25,
+    "lo": 0.06944444444444445,
+    "hi": 0.4305555555555556,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "cancel_pending_order",
+    "tasks": 15,
+    "baseline": 0.7666666666666667,
+    "candidate": 0.6833333333333333,
+    "diff": -0.08333333333333333,
+    "lo": -0.21666666666666667,
+    "hi": 0.06666666666666667,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "modify_pending_order_address",
+    "tasks": 14,
+    "baseline": 0.5178571428571429,
+    "candidate": 0.5892857142857143,
+    "diff": 0.07142857142857142,
+    "lo": -0.03571428571428571,
+    "hi": 0.17857142857142858,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "no_write",
+    "tasks": 9,
+    "baseline": 0.9444444444444444,
+    "candidate": 0.8888888888888888,
+    "diff": -0.05555555555555555,
+    "lo": -0.2222222222222222,
+    "hi": 0.1111111111111111,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "modify_user_address",
+    "tasks": 4,
+    "baseline": 0.6875,
+    "candidate": 0.25,
+    "diff": -0.4375,
+    "lo": -0.625,
+    "hi": -0.25,
+    "regression": true,
+    "clears": false
+   },
+   {
+    "use_case": "other",
+    "tasks": 1,
+    "baseline": 1.0,
+    "candidate": 1.0,
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "regression": false,
+    "clears": true
+   }
+  ],
+  "flips": {
+   "broke": 0,
+   "fixed": 4
+  },
+  "gate_passed": false
+ },
+ {
+  "domain": "retail",
+  "baseline": "o4-mini-2025-04-16",
+  "candidate": "claude-3-7-sonnet-20250219",
+  "tasks": 114,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.7149122807017544,
+   "candidate": 0.7872807017543859,
+   "diff": 0.07236842105263158,
+   "lo": 0.015350877192982455,
+   "hi": 0.12938596491228072
+  },
+  "use_cases": [
+   {
+    "use_case": "exchange_delivered_order_items",
+    "tasks": 27,
+    "baseline": 0.7037037037037037,
+    "candidate": 0.8055555555555556,
+    "diff": 0.10185185185185185,
+    "lo": -0.018518518518518517,
+    "hi": 0.21296296296296297,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "return_delivered_order_items",
+    "tasks": 26,
+    "baseline": 0.8365384615384616,
+    "candidate": 0.8269230769230769,
+    "diff": -0.009615384615384616,
+    "lo": -0.125,
+    "hi": 0.10576923076923077,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "modify_pending_order_items",
+    "tasks": 18,
+    "baseline": 0.6805555555555556,
+    "candidate": 0.7361111111111112,
+    "diff": 0.05555555555555555,
+    "lo": -0.09722222222222222,
+    "hi": 0.20833333333333334,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "cancel_pending_order",
+    "tasks": 15,
+    "baseline": 0.6833333333333333,
+    "candidate": 0.7833333333333333,
+    "diff": 0.1,
+    "lo": -0.05,
+    "hi": 0.23333333333333334,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "modify_pending_order_address",
+    "tasks": 14,
+    "baseline": 0.5892857142857143,
+    "candidate": 0.7321428571428571,
+    "diff": 0.14285714285714285,
+    "lo": 0.017857142857142856,
+    "hi": 0.26785714285714285,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "no_write",
+    "tasks": 9,
+    "baseline": 0.8888888888888888,
+    "candidate": 0.8333333333333334,
+    "diff": -0.05555555555555555,
+    "lo": -0.2222222222222222,
+    "hi": 0.1388888888888889,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "modify_user_address",
+    "tasks": 4,
+    "baseline": 0.25,
+    "candidate": 0.6875,
+    "diff": 0.4375,
+    "lo": 0.0,
+    "hi": 0.8125,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "other",
+    "tasks": 1,
+    "baseline": 1.0,
+    "candidate": 1.0,
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "regression": false,
+    "clears": true
+   }
+  ],
+  "flips": {
+   "broke": 1,
+   "fixed": 2
+  },
+  "gate_passed": false
+ },
+ {
+  "domain": "retail",
+  "baseline": "o4-mini-2025-04-16",
+  "candidate": "gpt-4.1-2025-04-14",
+  "tasks": 114,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.7149122807017544,
+   "candidate": 0.7412280701754386,
+   "diff": 0.02631578947368421,
+   "lo": -0.03508771929824561,
+   "hi": 0.08552631578947369
+  },
+  "use_cases": [
+   {
+    "use_case": "exchange_delivered_order_items",
+    "tasks": 27,
+    "baseline": 0.7037037037037037,
+    "candidate": 0.7314814814814815,
+    "diff": 0.027777777777777776,
+    "lo": -0.1111111111111111,
+    "hi": 0.16666666666666666,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "return_delivered_order_items",
+    "tasks": 26,
+    "baseline": 0.8365384615384616,
+    "candidate": 0.7788461538461539,
+    "diff": -0.057692307692307696,
+    "lo": -0.17307692307692307,
+    "hi": 0.057692307692307696,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "modify_pending_order_items",
+    "tasks": 18,
+    "baseline": 0.6805555555555556,
+    "candidate": 0.5694444444444444,
+    "diff": -0.1111111111111111,
+    "lo": -0.2777777777777778,
+    "hi": 0.05555555555555555,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "cancel_pending_order",
+    "tasks": 15,
+    "baseline": 0.6833333333333333,
+    "candidate": 0.85,
+    "diff": 0.16666666666666666,
+    "lo": 0.05,
+    "hi": 0.2833333333333333,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "modify_pending_order_address",
+    "tasks": 14,
+    "baseline": 0.5892857142857143,
+    "candidate": 0.6428571428571429,
+    "diff": 0.05357142857142857,
+    "lo": -0.08928571428571429,
+    "hi": 0.19642857142857142,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "no_write",
+    "tasks": 9,
+    "baseline": 0.8888888888888888,
+    "candidate": 0.9166666666666666,
+    "diff": 0.027777777777777776,
+    "lo": -0.1111111111111111,
+    "hi": 0.19444444444444445,
+    "regression": false,
+    "clears": false
+   },
+   {
+    "use_case": "modify_user_address",
+    "tasks": 4,
+    "baseline": 0.25,
+    "candidate": 0.8125,
+    "diff": 0.5625,
+    "lo": 0.375,
+    "hi": 0.8125,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "other",
+    "tasks": 1,
+    "baseline": 1.0,
+    "candidate": 1.0,
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "regression": false,
+    "clears": true
+   }
+  ],
+  "flips": {
+   "broke": 3,
+   "fixed": 2
+  },
+  "gate_passed": false
+ },
+ {
+  "domain": "telecom",
+  "baseline": "gpt-4.1-2025-04-14",
+  "candidate": "claude-3-7-sonnet-20250219",
+  "tasks": 114,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.34210526315789475,
+   "candidate": 0.4934210526315789,
+   "diff": 0.1513157894736842,
+   "lo": 0.09649122807017543,
+   "hi": 0.20833333333333334
+  },
+  "use_cases": [
+   {
+    "use_case": "mms_issue",
+    "tasks": 49,
+    "baseline": 0.1836734693877551,
+    "candidate": 0.1836734693877551,
+    "diff": 0.0,
+    "lo": -0.05102040816326531,
+    "hi": 0.05102040816326531,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "mobile_data_issue",
+    "tasks": 36,
+    "baseline": 0.2986111111111111,
+    "candidate": 0.6944444444444444,
+    "diff": 0.3958333333333333,
+    "lo": 0.2916666666666667,
+    "hi": 0.4930555555555556,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "service_issue",
+    "tasks": 29,
+    "baseline": 0.6637931034482759,
+    "candidate": 0.7672413793103449,
+    "diff": 0.10344827586206896,
+    "lo": 0.0,
+    "hi": 0.20689655172413793,
+    "regression": false,
+    "clears": true
+   }
+  ],
+  "flips": {
+   "broke": 0,
+   "fixed": 4
+  },
+  "gate_passed": true
+ },
+ {
+  "domain": "telecom",
+  "baseline": "gpt-4.1-2025-04-14",
+  "candidate": "gpt-4.1-mini-2025-04-14",
+  "tasks": 114,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.34210526315789475,
+   "candidate": 0.43859649122807015,
+   "diff": 0.09649122807017543,
+   "lo": 0.04824561403508772,
+   "hi": 0.14473684210526316
+  },
+  "use_cases": [
+   {
+    "use_case": "mms_issue",
+    "tasks": 49,
+    "baseline": 0.1836734693877551,
+    "candidate": 0.16326530612244897,
+    "diff": -0.02040816326530612,
+    "lo": -0.07653061224489796,
+    "hi": 0.030612244897959183,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "mobile_data_issue",
+    "tasks": 36,
+    "baseline": 0.2986111111111111,
+    "candidate": 0.5347222222222222,
+    "diff": 0.2361111111111111,
+    "lo": 0.14583333333333334,
+    "hi": 0.3263888888888889,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "service_issue",
+    "tasks": 29,
+    "baseline": 0.6637931034482759,
+    "candidate": 0.7844827586206896,
+    "diff": 0.1206896551724138,
+    "lo": 0.008620689655172414,
+    "hi": 0.23275862068965517,
+    "regression": false,
+    "clears": true
+   }
+  ],
+  "flips": {
+   "broke": 1,
+   "fixed": 1
+  },
+  "gate_passed": true
+ },
+ {
+  "domain": "telecom",
+  "baseline": "gpt-4.1-2025-04-14",
+  "candidate": "o4-mini-2025-04-16",
+  "tasks": 114,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.34210526315789475,
+   "candidate": 0.42105263157894735,
+   "diff": 0.07894736842105263,
+   "lo": 0.02412280701754386,
+   "hi": 0.13596491228070176
+  },
+  "use_cases": [
+   {
+    "use_case": "mms_issue",
+    "tasks": 49,
+    "baseline": 0.1836734693877551,
+    "candidate": 0.12244897959183673,
+    "diff": -0.061224489795918366,
+    "lo": -0.11734693877551021,
+    "hi": -0.01020408163265306,
+    "regression": true,
+    "clears": false
+   },
+   {
+    "use_case": "mobile_data_issue",
+    "tasks": 36,
+    "baseline": 0.2986111111111111,
+    "candidate": 0.4791666666666667,
+    "diff": 0.18055555555555555,
+    "lo": 0.09027777777777778,
+    "hi": 0.2777777777777778,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "service_issue",
+    "tasks": 29,
+    "baseline": 0.6637931034482759,
+    "candidate": 0.853448275862069,
+    "diff": 0.1896551724137931,
+    "lo": 0.05172413793103448,
+    "hi": 0.3275862068965517,
+    "regression": false,
+    "clears": true
+   }
+  ],
+  "flips": {
+   "broke": 1,
+   "fixed": 4
+  },
+  "gate_passed": false
+ },
+ {
+  "domain": "telecom",
+  "baseline": "gpt-4.1-mini-2025-04-14",
+  "candidate": "claude-3-7-sonnet-20250219",
+  "tasks": 114,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.43859649122807015,
+   "candidate": 0.4934210526315789,
+   "diff": 0.05482456140350877,
+   "lo": 0.010964912280701754,
+   "hi": 0.10087719298245613
+  },
+  "use_cases": [
+   {
+    "use_case": "mms_issue",
+    "tasks": 49,
+    "baseline": 0.16326530612244897,
+    "candidate": 0.1836734693877551,
+    "diff": 0.02040816326530612,
+    "lo": -0.030612244897959183,
+    "hi": 0.07653061224489796,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "mobile_data_issue",
+    "tasks": 36,
+    "baseline": 0.5347222222222222,
+    "candidate": 0.6944444444444444,
+    "diff": 0.1597222222222222,
+    "lo": 0.09027777777777778,
+    "hi": 0.2361111111111111,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "service_issue",
+    "tasks": 29,
+    "baseline": 0.7844827586206896,
+    "candidate": 0.7672413793103449,
+    "diff": -0.017241379310344827,
+    "lo": -0.12931034482758622,
+    "hi": 0.09482758620689655,
+    "regression": false,
+    "clears": false
+   }
+  ],
+  "flips": {
+   "broke": 1,
+   "fixed": 0
+  },
+  "gate_passed": false
+ },
+ {
+  "domain": "telecom",
+  "baseline": "o4-mini-2025-04-16",
+  "candidate": "claude-3-7-sonnet-20250219",
+  "tasks": 114,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.42105263157894735,
+   "candidate": 0.4934210526315789,
+   "diff": 0.07236842105263158,
+   "lo": 0.02631578947368421,
+   "hi": 0.1206140350877193
+  },
+  "use_cases": [
+   {
+    "use_case": "mms_issue",
+    "tasks": 49,
+    "baseline": 0.12244897959183673,
+    "candidate": 0.1836734693877551,
+    "diff": 0.061224489795918366,
+    "lo": 0.01020408163265306,
+    "hi": 0.11734693877551021,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "mobile_data_issue",
+    "tasks": 36,
+    "baseline": 0.4791666666666667,
+    "candidate": 0.6944444444444444,
+    "diff": 0.2152777777777778,
+    "lo": 0.125,
+    "hi": 0.3125,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "service_issue",
+    "tasks": 29,
+    "baseline": 0.853448275862069,
+    "candidate": 0.7672413793103449,
+    "diff": -0.08620689655172414,
+    "lo": -0.1724137931034483,
+    "hi": -0.008620689655172414,
+    "regression": true,
+    "clears": false
+   }
+  ],
+  "flips": {
+   "broke": 1,
+   "fixed": 2
+  },
+  "gate_passed": false
+ },
+ {
+  "domain": "telecom",
+  "baseline": "o4-mini-2025-04-16",
+  "candidate": "gpt-4.1-mini-2025-04-14",
+  "tasks": 114,
+  "trials": 4,
+  "overall": {
+   "baseline": 0.42105263157894735,
+   "candidate": 0.43859649122807015,
+   "diff": 0.017543859649122806,
+   "lo": -0.02850877192982456,
+   "hi": 0.06140350877192982
+  },
+  "use_cases": [
+   {
+    "use_case": "mms_issue",
+    "tasks": 49,
+    "baseline": 0.12244897959183673,
+    "candidate": 0.16326530612244897,
+    "diff": 0.04081632653061224,
+    "lo": -0.01020408163265306,
+    "hi": 0.09183673469387756,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "mobile_data_issue",
+    "tasks": 36,
+    "baseline": 0.4791666666666667,
+    "candidate": 0.5347222222222222,
+    "diff": 0.05555555555555555,
+    "lo": -0.041666666666666664,
+    "hi": 0.1527777777777778,
+    "regression": false,
+    "clears": true
+   },
+   {
+    "use_case": "service_issue",
+    "tasks": 29,
+    "baseline": 0.853448275862069,
+    "candidate": 0.7844827586206896,
+    "diff": -0.06896551724137931,
+    "lo": -0.16379310344827586,
+    "hi": 0.02586206896551724,
+    "regression": false,
+    "clears": false
+   }
+  ],
+  "flips": {
+   "broke": 0,
+   "fixed": 0
+  },
+  "gate_passed": false
+ }
+]
